@@ -1,7 +1,7 @@
 
 # Deployed Project
 
-http://amnabd.github.io/Record-Shop-projects
+https://amnaabd.github.io/Record-Shop-project
 
 # Getting Started with Create React App
 
