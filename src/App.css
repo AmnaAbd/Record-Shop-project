@@ -1,0 +1,168 @@
+/* app main container */
+
+.App {
+  background-color: rgb(255, 254, 254);
+}
+
+.modal-dialog {
+  margin-top: 10% !important;
+}
+.modal-content {
+  background-color: #333 !important;
+  color: white !important;
+}
+input {
+  border: none;
+  margin: 5px;
+  outline: none;
+  padding: 2px 4px;
+  border-radius: 5px;
+}
+nav {
+  background-color: #ee750b !important;
+  height: 75px !important;
+  box-shadow: 0 5px 5px grey !important;
+}
+
+a {
+  color: black !important;
+}
+
+/* background cards */
+
+.myCarousel {
+  background: rgba(255, 255, 255, 0.966);
+}
+
+.carousel-control-prev-icon,
+.carousel-control-next-icon {
+  height: 100px;
+  width: 100px;
+  background-size: 100%, 100%;
+  background-image: none;
+}
+.carousel-control-next-icon:after {
+  content: ">";
+  font-weight: bolder;
+  font-size: 35px;
+  color: black;
+}
+
+.carousel-control-prev-icon:after {
+  content: "<";
+  font-size: 35px;
+  color: black;
+}
+.dropdownItems:hover {
+  color: #ff7700 !important;
+  background-color: #232b2b !important;
+}
+a:hover {
+  text-decoration: none !important;
+  color: white !important;
+  transition: 0.2s;
+}
+.carouselButton {
+  background: #343a40 !important;
+  margin-top: 10px;
+  font-weight: bolder;
+  padding: 5px 20px;
+  color: #ff7700;
+  border: none;
+  border-radius: 18px;
+}
+.carouselButton:hover {
+  background: #ff7700 !important;
+  color: white;
+  transition: 0.2s;
+}
+.popUpLogin {
+  background: #ff7700 !important;
+}
+.popUpLogin:hover {
+  background: #dd6802 !important;
+  /* color: black !important; */
+}
+.modal-header,
+.modal-footer {
+  border: none !important;
+}
+
+/** CONTACT FORM **/
+
+.contacts {
+  width: 100%;
+  height: 20;
+}
+
+/** footer **/
+
+.footer {
+  background-color: #333;
+  color: white;
+  padding: 3rem;
+}
+
+.footer a {
+  text-decoration: none;
+  color: orange;
+  font-size: 2rem;
+  margin-left: 20%;
+  font-weight: 700;
+}
+
+.footer a:hover {
+  text-decoration: none;
+  color: orange;
+  cursor: pointer;
+}
+
+.socialmedia {
+  position: absolute;
+  left: 200%;
+  bottom: 20%;
+}
+.thumbnailText:hover {
+  color: white !important;
+  transition: 0.3s;
+}
+.thumbNailCard:hover {
+  background: #ff7700;
+  color: white;
+  border: 1px solid #333;
+  border-radius: 7px;
+  box-shadow: 4px 4px 3px #333;
+  transition: 0.2s;
+}
+
+/* logo cart */
+
+.logocart {
+  color: white;
+}
+
+.dark-mode {
+  background-color: #1a1919;
+  color: #999;
+  height: 100%;
+  transition: background-color 0.25s ease-in-out;
+}
+
+.light-mode {
+  background-color: #fff;
+  color: #333;
+  height: 100%;
+  transition: background-color 0.25s ease-in-out;
+}
+
+.faSun {
+  background-color: rgb(119, 119, 11) !important;
+}
+
+.faMoon {
+  background-color: blueviolet;
+}
+.checkout {
+  position: sticky;
+  top: 40px;
+}
